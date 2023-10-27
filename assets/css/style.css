@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+/* ========================================================== 
+                            Resets
+========================================================== */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+/* ========================================================== 
+                        Image Links
+========================================================== */
+
+/* https://source.unsplash.com/random?night sky */
+/* https://source.unsplash.com/random/?Cryptocurrency&1 */
+/* https://picsum.photos/300/300?random=1 */
+
+/* ========================================================== 
+                            Fonts
+========================================================== */
+
+@font-face {
+	font-family: 'Lato';
+	src: url('./../fonts/Lato-Regular.ttf');
+}
+
+
+/* ========================================================== 
+                Variables / Custom Properties
+========================================================== */
+
+/* ========================================================== 
+                        Body und Wrapper
+========================================================== */
+
+body {
+	font-family: 'Lato';
+	background-color: #0D1117;
+	scroll-behavior: smooth;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.wrapper {
+    width: clamp(200px, 50%, 450px);
+	margin: 0 auto;
+	border: 2px solid black;
+	border-radius: 10px;
+	background-color: #F1F1F1;
+}
+
+.vat__calculator__wrapper,.vat__result__wrapper {
+    padding: 10px;
+}
+
+/* ========================================================== 
+                            Content
+========================================================== */
+
+h1 {
+	text-align: center;
+    font-size: 1.5rem;
+    width: clamp(200px, 50%, 400px);
+	padding-block-end: 5px;
+	color: #E6E5E5;
+}
+
+form div, .vat__result__wrapper div {
+	background-color: #E6E5E5;
+    padding-block: 10px;
+    padding-inline: 10px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+h2 {
+	font-size: 1rem;
+	padding-bottom: 5px;
+}
+
+label span {
+	color: red;
+}
+
+label.netAmount {
+	display: block;
+	padding-bottom: 5px;
+}
+
+input {
+	padding: 5px;
+	border-radius: 10px;
+}
+
+input[type="number"] {
+	max-width: 50%;
+}
+
+input[type="submit"] {
+	width: 100%;
+	border-radius: 5px;
+	padding-block: 10px;
+	background-color: #2B06F9;
+	color: white;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+hr {
+	height: 3px;
+	background-color: black;
+	margin-block: 5px;
+}
+
+.vat__result__wrapper > h2 {
+	color: #2B06F9;
+}
+
+.vat__result__wrapper .grossNetAmount {
+	margin-bottom: 0;
+}
+

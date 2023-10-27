@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-Vertiefung – Project Mehrwertsteuer-Rechner</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <h1>Mehrwertsteuer-Rechner</h1>
+    <div class="wrapper">
+        <section class="vat__calculator__wrapper">
+            <form>
+                <div>
+                    <h2>Was soll berechnet werden?</h2>
+                    <input type="radio" id="net" name="netGross" value="net" checked>
+                    <label for="net"> Mehrwertsteuer aufschlagen (Netto zu Brutto)</label>
+                    <p></p>
+                    <input type="radio" id="gross" name="netGross" value="gross">
+                    <label for="gross"> Mehrwertsteuer abziehen (Brutto zu Netto)</label>
+                </div>
+                <div>
+                    <h2>Mehrwertsteuersatz</h2>
+                    <input type="radio" id="nineteenPercent" name="vatRate" value="nineteenPercent" checked>
+                    <label for="nineteenPercent"> 19%</label>
+                    <p></p>
+                    <input type="radio" id="sevenPercent" name="vatRate" value="sevenPercent">
+                    <label for="sevenPercent"> 7%</label>
+                </div>
+                <div>
+                    <label class="netAmount" for="netAmount">
+                        Nettobetrag (Preis ohne Mehrwertsteuer) in Euro<span>*</span>
+                    </label>
+                    <input type="number" name="netAmount" id="netAmount">
+                </div>
+                <input type="submit" value="Berechnen" id="btn-submit">
+            </form>
+        </section>
+        <hr>
+        <section class="vat__result__wrapper">
+            <h2>Ergebnis</h2>
+            <div class="vatAmount">
+                <h2>Mehrwertsteuerbetrag</h2>
+                <p>€</p>
+            </div>
+            <div class="grossNetAmount">
+                <h2>Bruttobetrag (Endpreis)</h2>
+                <p>€</p>
+            </div>
+        </section>
+    </div>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
