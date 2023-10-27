@@ -1,8 +1,5 @@
 # Mehrwertsteuer-Rechner – JavaScript-Projekt
 
-![Mehrwertsteuer abziehen](./assets/images/screenshot_mehrwertsteuer_abziehen.jpg)
-![Mehrwertsteuer aufschlagen](./assets/images/screenshot_mehrwertsteuer_aufschlagen.jpg)
-
 ## Beschreibung
 
 Dieses JavaScript-Projekt wurde im Rahmen eines Coding-Bootcamps bei supercode.de erstellt. Es handelt sich um einen Mehrwertsteuer-Rechner, der es ermöglicht, die Mehrwertsteuer für verschiedene Mehrwertsteuersätze (19% und 7%) zu berechnen. Mithilfe eines benutzerfreundlichen Formulars können Nutzer entweder einen Nettobetrag (Preis ohne Mehrwertsteuer) oder einen Bruttobetrag (Preis inklusive Mehrwertsteuer) in Euro eingeben.
