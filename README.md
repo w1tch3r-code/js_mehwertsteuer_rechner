@@ -4,7 +4,7 @@
 
 Dieses JavaScript-Projekt wurde im Rahmen eines Coding-Bootcamps bei supercode.de erstellt. Es handelt sich um einen Mehrwertsteuer-Rechner, der es ermöglicht, die Mehrwertsteuer für verschiedene Mehrwertsteuersätze (19% und 7%) zu berechnen. Mithilfe eines benutzerfreundlichen Formulars können Nutzer entweder einen Nettobetrag (Preis ohne Mehrwertsteuer) oder einen Bruttobetrag (Preis inklusive Mehrwertsteuer) in Euro eingeben.
 
-Die Anwendung bietet die Möglichkeit, die folgenden Berechnungen durchzuführen:
+### Die Anwendung bietet die Möglichkeit, die folgenden Berechnungen durchzuführen:
 
 - Mehrwertsteuer aufschlagen (Netto zu Brutto)
 - Mehrwertsteuer abziehen (Brutto zu Netto)
@@ -19,14 +19,26 @@ Durch die Auswahl einer der beiden Radio-Buttons ändert sich der Labeltext des 
 4. Klicke auf den "Berechnen"-Button, um die Berechnung durchzuführen.
 5. Die Anwendung zeigt den Mehrwertsteuerbetrag in Euro sowie den Bruttobetrag (Endpreis) oder den Nettobetrag an, je nachdem, welchen Radio-Button du oben ausgewählt hast.
 
+## Tools/Technologien
+- HTML5
+- CSS3
+- Vanilla JavaScript
+
 ## Screenshots
 
-![Mehrwertsteuer abziehen](./assets/images/screenshot_mehrwertsteuer_abziehen.jpg)
-![Mehrwertsteuer aufschlagen](./assets/images/screenshot_mehrwertsteuer_aufschlagen.jpg)
+### Berechnung Mehrwertsteuer abziehen
+![Berechnung Mehrwertsteuer abziehen](./assets/images/screenshot_mehrwertsteuer_abziehen.jpg)
+
+### Berechnung Mehrwertsteuer aufschlagen
+![Berechnung Mehrwertsteuer aufschlagen](./assets/images/screenshot_mehrwertsteuer_aufschlagen.jpg)
+
+## GitHub Live Vorschau
+
+Du findest eine Live Vorschau auf GitHub: [GitHub Live Vorschau](https://w1tch3r-code.github.io/js_mehwertsteuer_rechner/)
 
 ## GitHub Repository
 
-Du findest das gesamte Projekt auf GitHub: [GitHub Repository](https://w1tch3r-code.github.io/js_mehwertsteuer_rechner/)
+Du findest das gesamte Projekt auf GitHub: [GitHub Repository](https://github.com/w1tch3r-code/js_mehwertsteuer_rechner)
 
 ## Anmerkungen
 
